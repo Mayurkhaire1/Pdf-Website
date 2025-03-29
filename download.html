@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Your PDF - PDF Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <h1>PDF Store</h1>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Download Your PDF</h1>
+        <p>Your payment was successful! Click below to download your PDF:</p>
+        <a href="#" id="download-btn" style="display: none;">Download PDF</a>
+        <p><a href="#" id="manual-download">Click here to download</a></p>
+        <p><a href="index.html">Back to Home</a></p>
+    </div>
+    <div id="download-popup" class="popup" style="display: none;">
+        <div class="popup-content">
+            <p id="download-countdown-message">Downloading... Redirecting in 3...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
